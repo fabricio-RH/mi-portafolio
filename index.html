@@ -3,22 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Fabricio RH</title>
+    <title>Portafolio de Fabricio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
         }
-        .foto-placeholder {
-            width: 100%;
-            max-width: 200px;
+        .profile-image {
+            width: 200px;
             height: 200px;
-            border: 2px dashed #ccc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #e9ecef;
-            margin: 0 auto;
+            object-fit: cover;
         }
         .list-group-item a {
             text-decoration: none;
@@ -41,9 +35,8 @@
     <main class="container my-5">
 
         <header class="mb-5 text-center">
-            <div class="foto-placeholder rounded-circle">
-                <span>FOTO</span>
-                </div>
+            <img src="perfil.jpg" class="img-fluid rounded-circle profile-image" alt="Foto de perfil de Fabricio RH">
+            
             <h1 class="display-4 mt-3">FABRICIO BERNY BEN ROQUE HUACANI</h1>
             <p class="lead text-muted">
                 Bienvenido a mi portafolio digital. Aquí encontrarás mis proyectos y ejercicios de desarrollo web.
@@ -78,7 +71,7 @@
             <h3 class="mt-4">JS</h3>
             <ul class="list-group shadow-sm">
                 <li class="list-group-item"><a href="JS/pracx05.html" target="_blank">Práctica JS - Suma Simple</a></li>
-                </ul>
+            </ul>
         </section>
 
     </main>
